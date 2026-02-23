@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Roboto+Flex:opsz,wght,GRAD,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,-22,96,468,79,-203,738,514,712&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: radial-gradient(18% 28% at 24% 50%, #CEFAFFFF 7%, #073AFF00 100%),radial-gradient(18% 28% at 18% 71%, #FFFFFF59 6%, #073AFF00 100%),radial-gradient(70% 53% at 36% 76%, #73F2FFFF 0%, #073AFF00 100%),radial-gradient(42% 53% at 15% 94%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(42% 53% at 34% 72%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(18% 28% at 35% 87%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(31% 43% at 7% 98%, #FFFFFFFF 24%, #073AFF00 100%),radial-gradient(21% 37% at 72% 23%, #D3FF6D9C 24%, #073AFF00 100%),radial-gradient(35% 56% at 91% 74%, #8A4FFFF5 9%, #073AFF00 100%),radial-gradient(74% 86% at 67% 38%, #6DFFAEF5 24%, #073AFF00 100%),linear-gradient(125deg, #4EB5FFFF 1%, #4C00FCFF 100%);
+    background-size:cover;
+    height: 100vh;
+
+}
+
+.container{
+background-color: aliceblue;
+border-radius: 10px;
+max-width: 600px;
+margin: 100px auto;
+padding: 10px;
+
+}
+
+.container h2{
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.task-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.task-bar input{
+    width: 500px;
+    height: 40px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.task-bar button{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+    color: aliceblue;
+
+
+}
+
+ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+
+ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    display: flex;
+    gap: 10px;
+
+}
+
+
+ul li span {
+    flex-grow:1 ;
+}
+
+
+ul li button{
+
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    border: 0.4px red solid;
+    color: red;
+    cursor: pointer;
+    background-color: white;
+}
+
+button:hover{
+    background-color: red;
+    color: aliceblue;
+}
+
+.edit-btn{
+    border: 0.4px gold solid;
+    color: gold;
+
+}
+
+.edit-btn:hover{
+    background-color: gold;
+    color: white;
+}
